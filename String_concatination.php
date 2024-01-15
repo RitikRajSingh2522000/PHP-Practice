@@ -25,4 +25,24 @@ $data1= "Hello, Again Good Morning, Have a good day ";
 $words1 = str_word_count($data1);
 echo "The total words in this sentence are: ". $words1;
 
+
+
+
+
+// how to Replace characters/words in a string in PHP?
+//PHP str_replace() function 
+// the str-replace() function replaces some characters with some other characters in a string. 
+// Note: This function is case-sensitive. Use the str_ireplace() funcion to perform a case-insensitive search. 
+//Syntax
+// echo str_replace(search, replace, subject);
+/*
+Subject is the data/content, it would be in the bulk, 
+search is the word that you want to replace.
+replace is the word that will change.
+*/
+
+echo str_replace("ritik","Raj","Hello, this is Ritik</br>");// here it will not change Ritik with Raj, because it is case-sensitive.
+
+echo str_replace("Ritik","Raj","Hello, this is Ritik"); // here Ritik will change with Raj. 
+
 ?>
