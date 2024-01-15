@@ -45,4 +45,11 @@ echo str_replace("ritik","Raj","Hello, this is Ritik</br>");// here it will not 
 
 echo str_replace("Ritik","Raj","Hello, this is Ritik"); // here Ritik will change with Raj. 
 
+echo str_ireplace("riTik","Singh","Hello, this is Ritik</br>"); // here str_ireplace() function has been used so it is case-insensitive it will replace Singh at the place of Ritik.
+
+$name ="Ritik|Raj|Singh"; // but i need Ritik Raj Singh so
+echo str_replace("|", " ", "$name" ); here it will change | with space. 
+
+
+
 ?>
