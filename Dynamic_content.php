@@ -53,6 +53,7 @@
                 echo "Dec";
                 break;
             default:
+            // A java Script code here. 
             function function_alert($message) { 
       
                 // Display the alert box  
